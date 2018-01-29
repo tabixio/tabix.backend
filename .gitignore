@@ -1,6 +1,20 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+# phpstorm project files
+.idea/*
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# version info file
+version.json
+
+
+# apidoc
+/docs
+/app/apidoc.json
+tests/_output/*
+tests/_output/*
+
+composer.lock
